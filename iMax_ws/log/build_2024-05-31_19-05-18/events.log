@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.001221] (nav_project) JobQueued: {'identifier': 'nav_project', 'dependencies': OrderedDict()}
+[0.002476] (nav_project) JobStarted: {'identifier': 'nav_project'}
+[0.098993] (-) TimerEvent: {}
+[0.199800] (-) TimerEvent: {}
+[0.300845] (-) TimerEvent: {}
+[0.401712] (-) TimerEvent: {}
+[0.502515] (-) TimerEvent: {}
+[0.603283] (-) TimerEvent: {}
+[0.704040] (-) TimerEvent: {}
+[0.804809] (-) TimerEvent: {}
+[0.905501] (-) TimerEvent: {}
+[1.006246] (-) TimerEvent: {}
+[1.107002] (-) TimerEvent: {}
+[1.207964] (-) TimerEvent: {}
+[1.309069] (-) TimerEvent: {}
+[1.409801] (-) TimerEvent: {}
+[1.510763] (-) TimerEvent: {}
+[1.611550] (-) TimerEvent: {}
+[1.712361] (-) TimerEvent: {}
+[1.813204] (-) TimerEvent: {}
+[1.913906] (-) TimerEvent: {}
+[2.014611] (-) TimerEvent: {}
+[2.115318] (-) TimerEvent: {}
+[2.216014] (-) TimerEvent: {}
+[2.316720] (-) TimerEvent: {}
+[2.417405] (-) TimerEvent: {}
+[2.518120] (-) TimerEvent: {}
+[2.619049] (-) TimerEvent: {}
+[2.719870] (-) TimerEvent: {}
+[2.820743] (-) TimerEvent: {}
+[2.921966] (-) TimerEvent: {}
+[3.022867] (-) TimerEvent: {}
+[3.123835] (-) TimerEvent: {}
+[3.224883] (-) TimerEvent: {}
+[3.325589] (-) TimerEvent: {}
+[3.426813] (-) TimerEvent: {}
+[3.528191] (-) TimerEvent: {}
+[3.543620] (nav_project) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/nav_project', 'build', '--build-base', '/home/ubuntu/iMax_ws/build/nav_project/build', 'install', '--record', '/home/ubuntu/iMax_ws/build/nav_project/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/iMax_ws/nav_project', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKSPACE_SETUP': '/opt/ros/humble/setup.bash', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.0.106 57152 22', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'CYCLONEDDS_URI': '/etc/turtlebot4/cyclonedds_rpi.xml', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROBOT_SETUP': '/etc/turtlebot4/setup.bash', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/etc/turtlebot4/fastdds_discovery_super_client.xml', 'TURTLEBOT4_DIAGNOSTICS': '1', 'LC_ADDRESS': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'ROS_DISCOVERY_SERVER': '127.0.0.1:11811', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'ROBOT_NAMESPACE': '', 'PWD': '/home/ubuntu/iMax_ws/build/nav_project', 'SSH_CONNECTION': '192.168.0.106 57152 192.168.0.103 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/iMax_ws/build/nav_project/prefix_override:/home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1'}, 'shell': False}
+[3.628341] (-) TimerEvent: {}
+[3.729068] (-) TimerEvent: {}
+[3.830434] (-) TimerEvent: {}
+[3.931259] (-) TimerEvent: {}
+[4.032002] (-) TimerEvent: {}
+[4.132832] (-) TimerEvent: {}
+[4.233558] (-) TimerEvent: {}
+[4.334221] (-) TimerEvent: {}
+[4.435007] (-) TimerEvent: {}
+[4.535744] (-) TimerEvent: {}
+[4.636415] (-) TimerEvent: {}
+[4.729214] (nav_project) StdoutLine: {'line': b'running egg_info\n'}
+[4.732254] (nav_project) StdoutLine: {'line': b'writing ../build/nav_project/nav_project.egg-info/PKG-INFO\n'}
+[4.733622] (nav_project) StdoutLine: {'line': b'writing dependency_links to ../build/nav_project/nav_project.egg-info/dependency_links.txt\n'}
+[4.734855] (nav_project) StdoutLine: {'line': b'writing entry points to ../build/nav_project/nav_project.egg-info/entry_points.txt\n'}
+[4.736398] (nav_project) StdoutLine: {'line': b'writing requirements to ../build/nav_project/nav_project.egg-info/requires.txt\n'}
+[4.737231] (-) TimerEvent: {}
+[4.740896] (nav_project) StdoutLine: {'line': b'writing top-level names to ../build/nav_project/nav_project.egg-info/top_level.txt\n'}
+[4.747977] (nav_project) StdoutLine: {'line': b"reading manifest file '../build/nav_project/nav_project.egg-info/SOURCES.txt'\n"}
+[4.754273] (nav_project) StdoutLine: {'line': b"writing manifest file '../build/nav_project/nav_project.egg-info/SOURCES.txt'\n"}
+[4.755215] (nav_project) StdoutLine: {'line': b'running build\n'}
+[4.755729] (nav_project) StdoutLine: {'line': b'running build_py\n'}
+[4.756578] (nav_project) StdoutLine: {'line': b'copying nav_project/nav_project_nav_code.py -> /home/ubuntu/iMax_ws/build/nav_project/build/lib/nav_project\n'}
+[4.759512] (nav_project) StdoutLine: {'line': b'running install\n'}
+[4.761139] (nav_project) StdoutLine: {'line': b'running install_lib\n'}
+[4.765975] (nav_project) StdoutLine: {'line': b'copying /home/ubuntu/iMax_ws/build/nav_project/build/lib/nav_project/nav_project_nav_code.py -> /home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages/nav_project\n'}
+[4.775945] (nav_project) StdoutLine: {'line': b'byte-compiling /home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages/nav_project/nav_project_nav_code.py to nav_project_nav_code.cpython-310.pyc\n'}
+[4.780505] (nav_project) StdoutLine: {'line': b'running install_data\n'}
+[4.782041] (nav_project) StdoutLine: {'line': b'copying launch/nav_localization.launch.py -> /home/ubuntu/iMax_ws/install/nav_project/share/nav_project\n'}
+[4.785979] (nav_project) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.790628] (nav_project) StdoutLine: {'line': b"removing '/home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages/nav_project-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.793532] (nav_project) StdoutLine: {'line': b'Copying ../build/nav_project/nav_project.egg-info to /home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages/nav_project-0.0.0-py3.10.egg-info\n'}
+[4.803662] (nav_project) StdoutLine: {'line': b'running install_scripts\n'}
+[4.837429] (-) TimerEvent: {}
+[4.887801] (nav_project) StdoutLine: {'line': b'Installing nav_project_ex script to /home/ubuntu/iMax_ws/install/nav_project/lib/nav_project\n'}
+[4.889614] (nav_project) StdoutLine: {'line': b'Installing supervisor_ex script to /home/ubuntu/iMax_ws/install/nav_project/lib/nav_project\n'}
+[4.891379] (nav_project) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/iMax_ws/build/nav_project/install.log'\n"}
+[4.937751] (-) TimerEvent: {}
+[5.029067] (nav_project) CommandEnded: {'returncode': 0}
+[5.038061] (-) TimerEvent: {}
+[5.110667] (nav_project) JobEnded: {'identifier': 'nav_project', 'rc': 0}
+[5.113902] (-) EventReactorShutdown: {}

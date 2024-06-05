@@ -1,0 +1,4 @@
+[console_scripts]
+nav_project_ex = nav_project.nav_project_nav_code:main
+supervisor_ex = nav_project.supervisor:main
+

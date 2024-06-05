@@ -1,0 +1,24 @@
+running egg_info
+writing ../build/nav_project/nav_project.egg-info/PKG-INFO
+writing dependency_links to ../build/nav_project/nav_project.egg-info/dependency_links.txt
+writing entry points to ../build/nav_project/nav_project.egg-info/entry_points.txt
+writing requirements to ../build/nav_project/nav_project.egg-info/requires.txt
+writing top-level names to ../build/nav_project/nav_project.egg-info/top_level.txt
+reading manifest file '../build/nav_project/nav_project.egg-info/SOURCES.txt'
+writing manifest file '../build/nav_project/nav_project.egg-info/SOURCES.txt'
+running build
+running build_py
+copying nav_project/nav_project_nav_code.py -> /home/ubuntu/iMax_ws/build/nav_project/build/lib/nav_project
+running install
+running install_lib
+copying /home/ubuntu/iMax_ws/build/nav_project/build/lib/nav_project/nav_project_nav_code.py -> /home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages/nav_project
+byte-compiling /home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages/nav_project/nav_project_nav_code.py to nav_project_nav_code.cpython-310.pyc
+running install_data
+copying launch/nav_localization.launch.py -> /home/ubuntu/iMax_ws/install/nav_project/share/nav_project
+running install_egg_info
+removing '/home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages/nav_project-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/nav_project/nav_project.egg-info to /home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages/nav_project-0.0.0-py3.10.egg-info
+running install_scripts
+Installing nav_project_ex script to /home/ubuntu/iMax_ws/install/nav_project/lib/nav_project
+Installing supervisor_ex script to /home/ubuntu/iMax_ws/install/nav_project/lib/nav_project
+writing list of installed files to '/home/ubuntu/iMax_ws/build/nav_project/install.log'

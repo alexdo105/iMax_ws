@@ -1,0 +1,26 @@
+[3.584s] Invoking command in '/home/ubuntu/iMax_ws/nav_project': PYTHONPATH=/home/ubuntu/iMax_ws/build/nav_project/prefix_override:/home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/nav_project build --build-base /home/ubuntu/iMax_ws/build/nav_project/build install --record /home/ubuntu/iMax_ws/build/nav_project/install.log --single-version-externally-managed install_data
+[4.711s] running egg_info
+[4.714s] writing ../build/nav_project/nav_project.egg-info/PKG-INFO
+[4.716s] writing dependency_links to ../build/nav_project/nav_project.egg-info/dependency_links.txt
+[4.717s] writing entry points to ../build/nav_project/nav_project.egg-info/entry_points.txt
+[4.718s] writing requirements to ../build/nav_project/nav_project.egg-info/requires.txt
+[4.719s] writing top-level names to ../build/nav_project/nav_project.egg-info/top_level.txt
+[4.729s] reading manifest file '../build/nav_project/nav_project.egg-info/SOURCES.txt'
+[4.734s] writing manifest file '../build/nav_project/nav_project.egg-info/SOURCES.txt'
+[4.735s] running build
+[4.736s] running build_py
+[4.736s] copying nav_project/nav_project_nav_code.py -> /home/ubuntu/iMax_ws/build/nav_project/build/lib/nav_project
+[4.738s] running install
+[4.740s] running install_lib
+[4.744s] copying /home/ubuntu/iMax_ws/build/nav_project/build/lib/nav_project/nav_project_nav_code.py -> /home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages/nav_project
+[4.748s] byte-compiling /home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages/nav_project/nav_project_nav_code.py to nav_project_nav_code.cpython-310.pyc
+[4.759s] running install_data
+[4.760s] copying launch/nav_localization.launch.py -> /home/ubuntu/iMax_ws/install/nav_project/share/nav_project
+[4.761s] running install_egg_info
+[4.768s] removing '/home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages/nav_project-0.0.0-py3.10.egg-info' (and everything under it)
+[4.769s] Copying ../build/nav_project/nav_project.egg-info to /home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages/nav_project-0.0.0-py3.10.egg-info
+[4.780s] running install_scripts
+[4.873s] Installing nav_project_ex script to /home/ubuntu/iMax_ws/install/nav_project/lib/nav_project
+[4.874s] Installing supervisor_ex script to /home/ubuntu/iMax_ws/install/nav_project/lib/nav_project
+[4.876s] writing list of installed files to '/home/ubuntu/iMax_ws/build/nav_project/install.log'
+[5.008s] Invoked command in '/home/ubuntu/iMax_ws/nav_project' returned '0': PYTHONPATH=/home/ubuntu/iMax_ws/build/nav_project/prefix_override:/home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/nav_project build --build-base /home/ubuntu/iMax_ws/build/nav_project/build install --record /home/ubuntu/iMax_ws/build/nav_project/install.log --single-version-externally-managed install_data

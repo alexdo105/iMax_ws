@@ -1,0 +1,54 @@
+[3.007s] Invoking command in '/home/ubuntu/iMax_ws/nav_project': PYTHONPATH=/home/ubuntu/iMax_ws/build/nav_project/prefix_override:/home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/nav_project build --build-base /home/ubuntu/iMax_ws/build/nav_project/build install --record /home/ubuntu/iMax_ws/build/nav_project/install.log --single-version-externally-managed install_data
+[4.123s] running egg_info
+[4.126s] creating ../build/nav_project/nav_project.egg-info
+[4.127s] writing ../build/nav_project/nav_project.egg-info/PKG-INFO
+[4.131s] writing dependency_links to ../build/nav_project/nav_project.egg-info/dependency_links.txt
+[4.132s] writing entry points to ../build/nav_project/nav_project.egg-info/entry_points.txt
+[4.133s] writing requirements to ../build/nav_project/nav_project.egg-info/requires.txt
+[4.134s] writing top-level names to ../build/nav_project/nav_project.egg-info/top_level.txt
+[4.135s] writing manifest file '../build/nav_project/nav_project.egg-info/SOURCES.txt'
+[4.144s] reading manifest file '../build/nav_project/nav_project.egg-info/SOURCES.txt'
+[4.147s] writing manifest file '../build/nav_project/nav_project.egg-info/SOURCES.txt'
+[4.148s] running build
+[4.149s] running build_py
+[4.151s] creating /home/ubuntu/iMax_ws/build/nav_project/build
+[4.152s] creating /home/ubuntu/iMax_ws/build/nav_project/build/lib
+[4.152s] creating /home/ubuntu/iMax_ws/build/nav_project/build/lib/nav_project
+[4.152s] copying nav_project/nav_16102.py -> /home/ubuntu/iMax_ws/build/nav_project/build/lib/nav_project
+[4.153s] copying nav_project/nav_project_nav_code.py -> /home/ubuntu/iMax_ws/build/nav_project/build/lib/nav_project
+[4.153s] copying nav_project/supervisor.py -> /home/ubuntu/iMax_ws/build/nav_project/build/lib/nav_project
+[4.155s] copying nav_project/__init__.py -> /home/ubuntu/iMax_ws/build/nav_project/build/lib/nav_project
+[4.156s] copying nav_project/Power_Saver.py -> /home/ubuntu/iMax_ws/build/nav_project/build/lib/nav_project
+[4.159s] running install
+[4.160s] running install_lib
+[4.164s] creating /home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages/nav_project
+[4.165s] copying /home/ubuntu/iMax_ws/build/nav_project/build/lib/nav_project/nav_16102.py -> /home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages/nav_project
+[4.165s] copying /home/ubuntu/iMax_ws/build/nav_project/build/lib/nav_project/nav_project_nav_code.py -> /home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages/nav_project
+[4.169s] copying /home/ubuntu/iMax_ws/build/nav_project/build/lib/nav_project/supervisor.py -> /home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages/nav_project
+[4.170s] copying /home/ubuntu/iMax_ws/build/nav_project/build/lib/nav_project/__init__.py -> /home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages/nav_project
+[4.170s] copying /home/ubuntu/iMax_ws/build/nav_project/build/lib/nav_project/Power_Saver.py -> /home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages/nav_project
+[4.172s] byte-compiling /home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages/nav_project/nav_16102.py to nav_16102.cpython-310.pyc
+[4.180s] byte-compiling /home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages/nav_project/nav_project_nav_code.py to nav_project_nav_code.cpython-310.pyc
+[4.188s] byte-compiling /home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages/nav_project/supervisor.py to supervisor.cpython-310.pyc
+[4.191s] byte-compiling /home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages/nav_project/__init__.py to __init__.cpython-310.pyc
+[4.192s] byte-compiling /home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages/nav_project/Power_Saver.py to Power_Saver.cpython-310.pyc
+[4.195s] running install_data
+[4.196s] creating /home/ubuntu/iMax_ws/install/nav_project/share/ament_index
+[4.196s] creating /home/ubuntu/iMax_ws/install/nav_project/share/ament_index/resource_index
+[4.197s] creating /home/ubuntu/iMax_ws/install/nav_project/share/ament_index/resource_index/packages
+[4.198s] copying resource/nav_project -> /home/ubuntu/iMax_ws/install/nav_project/share/ament_index/resource_index/packages
+[4.198s] copying package.xml -> /home/ubuntu/iMax_ws/install/nav_project/share/nav_project
+[4.199s] copying launch/master.launch.py -> /home/ubuntu/iMax_ws/install/nav_project/share/nav_project
+[4.200s] copying launch/launch_filetest.launch.py -> /home/ubuntu/iMax_ws/install/nav_project/share/nav_project
+[4.201s] copying launch/nav_project.launch.py -> /home/ubuntu/iMax_ws/install/nav_project/share/nav_project
+[4.202s] copying launch/nav_localization.launch.py -> /home/ubuntu/iMax_ws/install/nav_project/share/nav_project
+[4.203s] copying launch/supervisor.launch.py -> /home/ubuntu/iMax_ws/install/nav_project/share/nav_project
+[4.204s] creating /home/ubuntu/iMax_ws/install/nav_project/share/nav_project/config
+[4.204s] copying config/nav2.yaml -> /home/ubuntu/iMax_ws/install/nav_project/share/nav_project/config
+[4.205s] running install_egg_info
+[4.213s] Copying ../build/nav_project/nav_project.egg-info to /home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages/nav_project-0.0.0-py3.10.egg-info
+[4.219s] running install_scripts
+[4.306s] Installing nav_project_ex script to /home/ubuntu/iMax_ws/install/nav_project/lib/nav_project
+[4.307s] Installing supervisor_ex script to /home/ubuntu/iMax_ws/install/nav_project/lib/nav_project
+[4.309s] writing list of installed files to '/home/ubuntu/iMax_ws/build/nav_project/install.log'
+[4.442s] Invoked command in '/home/ubuntu/iMax_ws/nav_project' returned '0': PYTHONPATH=/home/ubuntu/iMax_ws/build/nav_project/prefix_override:/home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/nav_project build --build-base /home/ubuntu/iMax_ws/build/nav_project/build install --record /home/ubuntu/iMax_ws/build/nav_project/install.log --single-version-externally-managed install_data

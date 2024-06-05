@@ -1,0 +1,5 @@
+  File "/home/ubuntu/iMax_ws/install/nav_project/lib/python3.10/site-packages/nav_project/nav_project_nav_code.py", line 85
+    self.set_initial_pose(0.115 0.033, math.degrees(-0.100))
+                          ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
